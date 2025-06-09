@@ -5,6 +5,7 @@ https://www.kaggle.com/competitions/opencv-pytorch-dl-course-classification
 2. Use classify.py to divide data into a labeled train_set and an unlabeled test_set.
 3. Split 20% of the train_set into a valid_set for model evaluation.
 4. Gputest.py to test whether is working normally.
-5. Use ResNet to train model and safe it in resnet50_model.pth.
-6. Use this model to test valid_set to get loss and accuracy.
-7. It works certainly and use this model to test test_set.
+5. Apply data augmentation techniques including random rotation and normalization.
+6. Use ResNet to train model and safe it in resnet50_model.pth.
+7. Use this model to test valid_set to get loss and accuracy.
+8. It works certainly and use this model to test test_set.
